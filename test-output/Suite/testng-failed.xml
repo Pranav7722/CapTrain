@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://demo.guru99.com/test/newtours/"/>
+    <classes>
+      <class name="new1.Oct1">
+        <methods>
+          <include name="launch"/>
+          <include name="loginTc" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- new1.Oct1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Testedge(failed)">
+    <parameter name="browser" value="edge"/>
+    <parameter name="url" value="https://demo.guru99.com/test/newtours/"/>
+    <classes>
+      <class name="new1.Oct1">
+        <methods>
+          <include name="launch"/>
+          <include name="loginTc" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- new1.Oct1 -->
+    </classes>
+  </test> <!-- Testedge(failed) -->
+  <test thread-count="5" name="Testfirefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://demo.guru99.com/test/newtours/"/>
+    <classes>
+      <class name="new1.Oct1">
+        <methods>
+          <include name="launch"/>
+          <include name="loginTc" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- new1.Oct1 -->
+    </classes>
+  </test> <!-- Testfirefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->
